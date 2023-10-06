@@ -1,0 +1,6 @@
+1. Note that we're passing 6 params in the updateUser function in the 'AccountProfile' component and also
+passing 6 params in the updateUser function in the 'user.actions.ts' component. It is important to note
+that the params must be in the same order so as to not mix up the values in the database when creating or
+updating the database. An alternative is made using the interface to destructure the values (check the code for the updated solution).
+
+2. 
